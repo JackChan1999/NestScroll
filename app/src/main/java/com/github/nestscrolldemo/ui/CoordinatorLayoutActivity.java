@@ -50,6 +50,7 @@ public class CoordinatorLayoutActivity extends AppCompatActivity {
         mViewPager.setAdapter(new TabAdapter());
         mTabLayout.setupWithViewPager(mViewPager);
 
+
       /*  mRecyclerView = (RecyclerView) findViewById(R.id.rv);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setAdapter(new MyAdapter());*/
